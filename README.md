@@ -1,12 +1,14 @@
-# Response
-반응형 Layout
-
-### jQuery 사용
+# 반응형 Layout
 
 
-### BootStrap 사용
-http://getbootstrap.com/
+### 사용 PlugIN
 
-### 송효진님의 CSS-Selector 사용
-https://github.com/crucifyer/css-browser-selector
+* jQuery
+* BootStrap - http://getbootstrap.com/
+* 송효진님의 CSS-Selector - https://github.com/crucifyer/css-browser-selector
+
+ 
+> 기능이 특별한건 없으며
+> 자주 사용하는 작업을 위해서
+> 개인적으로 만들어 놓은것뿐
 
