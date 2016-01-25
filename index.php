@@ -25,8 +25,6 @@ include_once './common/_head.php';
 
 
 
-<!-- ------- -->
-
 
 <div class="container">
 
