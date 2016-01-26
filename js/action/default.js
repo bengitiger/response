@@ -8,5 +8,8 @@ $(document).ready(function() {
     pagination : true,
     paginationNumbers: false
   });
+  
+  
+  // $(".fancybox").fancybox();
  
 });

@@ -54,7 +54,14 @@ include_once './common/_head.php';
   <div class="row ed">
     <div class="col-md-4 text-center">.col-md-1</div>
     <div class="col-md-4">.col-md-1</div>
-    <div class="col-md-4">.col-md-1</div>
+    <div class="col-md-4">
+
+      <!-- 
+      <a class="fancybox" rel="group" href="/js/fancyBox/demo/1_b.jpg"><img src="/js/fancyBox/demo/1_s.jpg" alt="" /></a>
+      <a class="fancybox" rel="group" href="/js/fancyBox/demo/2_b.jpg"><img src="/js/fancyBox/demo/2_s.jpg" alt="" /></a>
+      -->
+      
+    </div>
   </div>
 
 </div>
