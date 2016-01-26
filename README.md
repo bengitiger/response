@@ -5,10 +5,11 @@
 
 * jQuery
 * BootStrap - http://getbootstrap.com/
-* http://owlgraphic.com/owlcarousel/
-* http://daneden.me/animate
 
-* 송효진님의 CSS-Selector - https://github.com/crucifyer/css-browser-selector
+* owlcarousel - http://owlgraphic.com/owlcarousel/
+* animate - http://daneden.me/animate
+* fancybox - http://fancyapps.com/fancybox/
+* css-selector - https://github.com/crucifyer/css-browser-selector
 
  
 > 기능이 특별한건 없으며, 자주 사용하는 작업을 위해서
