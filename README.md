@@ -5,6 +5,9 @@
 
 * jQuery
 * BootStrap - http://getbootstrap.com/
+* http://owlgraphic.com/owlcarousel/
+* http://daneden.me/animate
+
 * 송효진님의 CSS-Selector - https://github.com/crucifyer/css-browser-selector
 
  
