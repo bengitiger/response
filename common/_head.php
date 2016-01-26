@@ -14,7 +14,10 @@
     <link href="/css/animate.css" rel="stylesheet">    
     <link href="/js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="/js/owl-carousel/owl.theme.css" rel="stylesheet">
-        
+    <link href="/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" type="text/css" media="screen" />
+            
     <link href="/css/default.css" rel="stylesheet" media="screen">
     <link href="/css/response.css" rel="stylesheet" media="screen">
     <!--[if lt IE 9]>
