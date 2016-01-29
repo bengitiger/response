@@ -1,6 +1,6 @@
 <?php
 include_once './common/_common.php';
-include_once './common/_head.php';
+include_once 'layout/_head.php';
 ?>
 
 
@@ -85,5 +85,5 @@ include_once './common/_head.php';
 
 
 <?php
-include_once './common/_tail.php';
+include_once 'layout/_tail.php';
 ?>
