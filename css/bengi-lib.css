@@ -1,11 +1,29 @@
 /**
- * Css 
+ *   DEFINE I 
  */
 
 .ed {
   border: 1px solid #ccc;
 }
 
+
+/**
+ *   Define II
+ */
+
+.center-to-left {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.center-to-right {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
 
 /**
  *  Scroll - Top 
