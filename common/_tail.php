@@ -19,7 +19,8 @@
     <script src="/js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6" type="text/javascript"></script>    
     <script src="/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7" type="text/javascript"></script>    
     
-    <script src="/js/scrollup/dist/jquery.scrollUp.min.js" type="text/javascript"></script>    
+    <script src="/js/scrollup/dist/jquery.scrollUp.min.js" type="text/javascript"></script>
+    <script src="/js/scrollpage/scripts/scrollpagination.js" type="text/javascript"></script>    
     
     <script src="/js/action/default.js"></script>
   </body>

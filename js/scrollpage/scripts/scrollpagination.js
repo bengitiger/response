@@ -77,8 +77,8 @@
  };
 	
  $.fn.scrollPagination.defaults = {
-      	 'contentPage' : null,
-     	 'contentData' : {},
+   	 'contentPage' : null,
+   	 'contentData' : {},
 		 'beforeLoad': null,
 		 'afterLoad': null	,
 		 'scrollTarget': null,
