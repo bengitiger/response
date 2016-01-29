@@ -13,7 +13,7 @@ include_once 'layout/_head.php';
         <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
       </p>
       <div class="jumbotron">
-        <h1>Hello, world!</h1>
+        <h1>벤지 개발자, Response Web Layout</h1>
         <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
       </div>
       

@@ -23,6 +23,9 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link href="/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" type="text/css" media="screen" />
     <link href="/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" type="text/css" media="screen" />
     
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    
     <link href="/css/bengi-lib.css" rel="stylesheet" media="screen">        
     <link href="/css/default.css" rel="stylesheet" media="screen">
     <link href="/css/response.css" rel="stylesheet" media="screen">

@@ -25,6 +25,15 @@
   text-align: center;
 }
 
+
+/**
+ *    실행시간 
+ */
+ 
+#pagecreateinfo div {
+  font-size: 0.9em;
+}
+
 /**
  *  Scroll - Top 
  */
