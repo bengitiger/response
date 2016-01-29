@@ -56,4 +56,11 @@ $(function () {
   
   
   
+  
+    var ggr_stime = new Date(); 
+    function ggr_showtime(){ $('#ggrshowtime').html( (((new Date())-ggr_stime)/1000)+' sec' ); } 
+    window.onstop = ggr_showtime; 
+    window.onload = ggr_showtime; 
+  
+  
 });

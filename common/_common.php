@@ -1,7 +1,6 @@
 <?php
 error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING );
 
-
 /** --------------------------------------------------
  *
  *                       COOKIE
@@ -61,8 +60,15 @@ $tmp_path = func_bengi_rwd_path();
 
 include_once($tmp_path['path'].'/config.php');           // 설정 파일
 include_once($tmp_path['path'].'/security.php');         // 보안 파일
-include_once($tmp_path['path'].'/define.php');   // INCLUDE & DEFINE
+include_once($tmp_path['path'].'/define.php');           // INCLUDE & DEFINE
 
 unset($tmp_path);
 
 
+/** --------------------------------------------------
+ *
+ *                     참조 LIB
+ *
+ */
+
+include_once(BENGI_RWD_PATH.'/lib/action/bengi_rwd_lib.php');  

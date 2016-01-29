@@ -48,6 +48,22 @@ else {
 
 
 
+/** ------------------------------------------------------
+ *
+ *                        경로 상수
+ *
+ */
+
+define('BENGI_RWD_PATH', $GLB['path']['root']);
+
+
+
+/**
+ *
+ *    AGENT CHECK
+ *
+ */
+
 include_once $GLB['path']['root'].'/lib/css_browser/css_browser_selector.class.php';
 
 $vAgent = css_browser_selector::getClassName($_SERVER['HTTP_USER_AGENT']);

@@ -1,9 +1,25 @@
-/* Responsive styles */
+
+.center-to-left {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.center-to-right {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* -------------------------------------------- */
 
 @media (min-width : 1200px) {
   
 }
 
+/* -------------------------------------------- */
 
 @media (min-width : 992px) {
 
@@ -11,14 +27,26 @@
 
 }
 
+/* -------------------------------------------- */
+
 @media (min-width : 768px) and (max-width: 991px) {
   
-
-
+  .center-to-left {
+      text-align: left;
+      float: left;
+   }
+  
+  .center-to-right {
+      float: right;
+      text-align: right;
+   }
 
 }
+
+/* -------------------------------------------- */
 
 @media (max-width : 767px){
 
 
 }
+
