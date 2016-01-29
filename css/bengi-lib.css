@@ -1,0 +1,62 @@
+/**
+ * Css 
+ */
+
+.ed {
+  border: 1px solid #ccc;
+}
+
+
+/**
+ *  Scroll - Top 
+ */
+ 
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  background: url('/js/scrollup/demo/img/top.png') no-repeat;
+}
+
+
+/**
+ * Scroll Data Loading
+ */
+ 
+#scrollpaginationdemo {
+
+
+}
+
+#scrollpaginationdemo ul {
+  list-style:none;
+  width:100%;
+  margin:0px auto;
+  padding:0px;
+}
+
+#scrollpaginationdemo ul li {
+  margin:10px 0px;
+  width:100%;
+  background:#352828;
+  padding:5px 10px;
+  border-radius: 15px;
+  text-shadow: 2px 1px -1px #000000;
+}
+
+#scrollpaginationdemo p {
+  color: #fff;
+}
+
+.loading {
+  background:#c1c39a;
+  color:#303030;
+  font-size:20px;
+  padding:5px 10px;
+  text-align:center;
+  width:450px;
+  margin:0px auto;
+  display:none;
+  border-radius: 5px;
+}

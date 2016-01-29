@@ -6,20 +6,27 @@
   <head>
     <title>Title Page</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name=description content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/favicon.ico">    
+    
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="/css/ie10-viewport.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    
+    
     <link href="/css/animate.css" rel="stylesheet">    
     <link href="/js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="/js/owl-carousel/owl.theme.css" rel="stylesheet">
     <link href="/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
     <link href="/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" type="text/css" media="screen" />
     <link href="/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" type="text/css" media="screen" />
-            
+    
+    <link href="/css/bengi-lib.css" rel="stylesheet" media="screen">        
     <link href="/css/default.css" rel="stylesheet" media="screen">
     <link href="/css/response.css" rel="stylesheet" media="screen">
+     
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
