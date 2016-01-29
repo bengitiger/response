@@ -2,7 +2,7 @@ $(function () {
   
   $.scrollUp({
     animation: 'fade',
-    activeOverlay: '#00FFFF',    // false / Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    // activeOverlay: '#00FFFF',    // false / Set CSS color to display scrollUp active point, e.g '#00FFFF'
     scrollText: 'Scroll to top', // Text for element
     scrollName: 'scrollUp',  // Element ID
     topDistance: '300',      // Distance from top before showing element (px)

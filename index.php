@@ -3,8 +3,6 @@ include_once './common/_common.php';
 include_once './common/_head.php';
 ?>
 
-
-
 <div class="jumbotron">
   <div class="container">
     <h1>Hello, world!</h1>
