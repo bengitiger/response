@@ -59,74 +59,10 @@ function func_bengi_rwd_path()
 
 $tmp_path = func_bengi_rwd_path();
 
-include_once($tmp_path['path'].'/config.php');     // 설정 파일
-include_once($tmp_path['path'].'/security.php');   // 보안 파일
+include_once($tmp_path['path'].'/config.php');           // 설정 파일
+include_once($tmp_path['path'].'/security.php');         // 보안 파일
+include_once($tmp_path['path'].'/define.php');   // INCLUDE & DEFINE
 
 unset($tmp_path);
 
-
-
-/**
- *
- *    DEFINE
- *
- */
-
-
-
-
-
-/**
- * 
- *    PATH
- * 
- */
-
-$GLB['path']['root'] = $_SERVER['DOCUMENT_ROOT']; // PATH
-
-
-/**
- *
- *    URL
- *
- */
-
-$GLB['url']['loc']   = $_SERVER["REQUEST_URI"];   // 현재 위치
-
-
-
-/**
- *
- *    현재 위치
- *
- */
-
-if( $GLB['url']['loc'] == '/' ) $GLB['url']['page']['loc'] = 'main';
-else {
-    
-  switch ( substr($GLB['url']['loc'], 1, -4 ) ) {
-    case 'sub':
-      $GLB['url']['page']['loc'] = 'menu1';
-      break;
-    case 1:
-      $GLB['url']['page']['loc'] = 'sub';
-      break;
-    case 2:
-      $GLB['url']['page']['loc'] = 'sub';
-      break;
-    default:
-      $GLB['url']['page']['loc'] = 'sub';
-  }  
-    
-}
-
-
-
-/**
- *
- *    INCLUDE
- *
- */
-
-include_once $GLB['path']['root'].'/common/_define.php';
 

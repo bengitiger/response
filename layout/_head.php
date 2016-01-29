@@ -51,7 +51,7 @@ if (!defined('_BENGI_RWD_VER_')) exit;
   
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <?php 
-        include_once $GLB['path']['root'].'/common/_menu.php';
+        include_once $GLB['path']['root'].'/layout/_menu.php';
         ?>
       </div>
     </div>
