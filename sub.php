@@ -3,7 +3,6 @@ include_once './common/_common.php';
 include_once 'layout/_head.php';
 ?>
 
-
 <div class="container">
 
   <div class="row row-offcanvas row-offcanvas-right">
