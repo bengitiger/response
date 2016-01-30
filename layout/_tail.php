@@ -26,7 +26,7 @@ if (! defined ( '_BENGI_RWD_VER_' ))
           
               <ul class="social">
               	<li>
-                    <a href="#">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="구글">
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-google fa-stack-1x fa-inverse"></i>
@@ -34,7 +34,7 @@ if (! defined ( '_BENGI_RWD_VER_' ))
                     </a>
                 </li>
               	<li>
-                    <a href="#">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="트위터">
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -42,7 +42,7 @@ if (! defined ( '_BENGI_RWD_VER_' ))
                     </a>
                 </li>
               	<li>
-                    <a href="#">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="페이스북">
                       <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -98,6 +98,7 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 <script src="/js/scrollup/dist/jquery.scrollUp.min.js" type="text/javascript"></script>
 <script src="/js/scrollpage/scripts/scrollpagination.js" type="text/javascript"></script>
 
+<script src="/js/action/bengi_rwd_lib.js"></script>
 <script src="/js/action/default.js"></script>
 </body>
 </html>

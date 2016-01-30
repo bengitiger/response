@@ -16,3 +16,10 @@ if ( window.attachEvent && !window.addEventListener ) { // <-- Poor man's IE8 de
     });
 }
 
+$(function () {
+
+  $('[data-toggle="tooltip"]').tooltip();     // Tool Tip
+
+  
+  
+});
