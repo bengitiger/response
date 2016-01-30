@@ -48,7 +48,12 @@ if (! defined ( '_BENGI_RWD_VER_' ))
               </a>
             </li>
             <li>
-            
+              <a href="#" data-toggle="tooltip" data-placement="top" title="GitHub"> 
+                <span class="fa-stack fa-lg"> 
+                  <i class="fa fa-circle fa-stack-2x"></i> 
+                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
             </li>
             <li>
             

@@ -4,7 +4,7 @@ if (!defined('_BENGI_RWD_VER_')) exit;
 <ul class="nav navbar-nav">
   <li class="active"><a href="/">MAIN <span class="sr-only">(current)</span></a></li>
   <li><a href="/sub.php">SUB</a></li>
-  <li><a href="#">Link</a></li>
+  <li><a href="/sub2.php">SUB2</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
     <ul class="dropdown-menu">
       <li><a href="#">Action</a></li>

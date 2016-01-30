@@ -34,8 +34,8 @@ else {
     case 'sub':
       $GLB['url']['page']['loc'] = 'menu1';
       break;
-    case 1:
-      $GLB['url']['page']['loc'] = 'sub';
+    case 'sub2':
+      $GLB['url']['page']['loc'] = 'menu2';
       break;
     case 2:
       $GLB['url']['page']['loc'] = 'sub';
