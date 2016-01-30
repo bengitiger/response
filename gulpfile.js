@@ -8,11 +8,17 @@ var gulp    = require('gulp'),
     del     = require('del');
 
 var paths = {
-    scripts: [ 'js/**/*.js',
-               'js/ie10-viewport-bug-workaround.js',
-               'js/fancyBox/source/*.js',
+    scripts: [ 'js/fancyBox/source/*.js',
                'js/fancyBox/source/**/*.js',
+               'js/fancyBox/lib/*.js',
                
+               'js/scrollpage/**/*.js',
+               
+               'js/scrollup/**/*.js',
+               
+               'js/bootstrap/js/*.min.js',
+                              
+               'js/**/*.js',               
                '!js/build/*.js'
     ],
     images: [ 'img_dev/**/*'
