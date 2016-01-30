@@ -4,22 +4,24 @@ var gulp    = require('gulp'),
     concat  = require('gulp-concat'),
     imagemin = require('gulp-imagemin'),
     sourcemaps = require('gulp-sourcemaps'),
+    watch   = require('gulp-watch'),
     del     = require('del');
 
 var paths = {
-    scripts: [ 'js/**/*.js', 
+    scripts: [ 'js/**/*.js',
                'js/ie10-viewport-bug-workaround.js',
                'js/fancyBox/source/*.js',
-               'js/fancyBox/**/*.js',
+               'js/fancyBox/source/**/*.js',
                
                '!js/build/*.js'
     ],
-    images: ['img/logo/*']
+    images: [ 'img_dev/**/*'
+    ]
 };
 
-
-gulp.task('clean', function(cb) {
-  del(['build'], cb);
+  
+gulp.task('clean', function() {
+  del(['js/build/','img/']);
 });
 
 
@@ -36,7 +38,7 @@ gulp.task('scripts', ['clean'], function() {
 gulp.task('images', ['clean'], function() {
   return gulp.src(paths.images)
     .pipe(imagemin({optimizationLevel: 5}))
-    .pipe(gulp.dest('img/build'));
+    .pipe(gulp.dest('img'));
 });
 
 
