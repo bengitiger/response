@@ -49,3 +49,14 @@ footer img.img-logo {
     width: 28%;
     border: 0 solid #1690C7;
 } 
+
+footer ul.social {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: inline-block;
+}
+
+footer ul.social li {
+  float: left;  
+}

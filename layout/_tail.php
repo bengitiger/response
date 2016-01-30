@@ -19,9 +19,45 @@ if (! defined ( '_BENGI_RWD_VER_' ))
       <div class="col-sm-4">
         <div class="text-center">
           <p>
-            <a href="#">Host Company, Inc.</a><br> <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+            <a href="#">Company, Inc.</a><br> <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
           </p>
-          <p>social media icons</p>
+          
+
+          
+              <ul class="social">
+              	<li>
+                    <a href="#">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+              	<li>
+                    <a href="#">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+              	<li>
+                    <a href="#">
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                </li>
+              	<li>
+                
+                </li>
+              	<li>
+                
+                </li>
+              </ul>
+
+          
         </div>
       </div>
 
