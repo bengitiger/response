@@ -4,8 +4,9 @@ var gulp    = require('gulp'),
     concat  = require('gulp-concat'),
     imagemin = require('gulp-imagemin'),
     sourcemaps = require('gulp-sourcemaps'),
-    watch   = require('gulp-watch'),
-    del     = require('del');
+    watch      = require('gulp-watch'),
+    minifyCss  = require('gulp-minify-css'),
+    del        = require('del');
 
 var paths = {
     scripts: [ 'js/fancyBox/source/*.js',
@@ -21,13 +22,21 @@ var paths = {
                'js/**/*.js',               
                '!js/build/*.js'
     ],
-    images: [ 'img_dev/**/*'
-    ]
+    css: [ 'css/*.css', 
+           'js/bootstrap/css/*.min.css',
+           'js/fancyBox/source/*.css',
+           'js/fancyBox/source/helpers/*.css',
+           
+           'js/owl-carousel/*.css',
+           
+           '!css/all.min.css' 
+    ],
+    images: [ 'img_dev/**/*' ]
 };
 
   
 gulp.task('clean', function() {
-  del(['js/build/','img/']);
+  del(['js/build/','img/','css/all.min.css']);
 });
 
 
@@ -41,6 +50,16 @@ gulp.task('scripts', ['clean'], function() {
 });
 
 
+gulp.task('css', ['clean'], function() {
+  return gulp.src(paths.css)
+    .pipe(sourcemaps.init())
+    .pipe(minifyCss({compatibility: 'ie8'}))
+    .pipe(concat('all.min.css'))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('css'));
+});
+
+
 gulp.task('images', ['clean'], function() {
   return gulp.src(paths.images)
     .pipe(imagemin({optimizationLevel: 5}))
@@ -50,7 +69,8 @@ gulp.task('images', ['clean'], function() {
 
 gulp.task('watch', function() {
   gulp.watch(paths.scripts, ['scripts']);
+  gulp.watch(paths.css, ['css']);
   gulp.watch(paths.images, ['images']);
 });
 
-gulp.task('default', ['watch', 'scripts', 'images']);
+gulp.task('default', ['watch', 'scripts', 'css', 'images']);
