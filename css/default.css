@@ -34,6 +34,8 @@ html.sub body {
 .jumbotron .h1,
 .jumbotron h1 {
   font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 56px;
 } 
 
 

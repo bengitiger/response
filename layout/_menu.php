@@ -14,7 +14,8 @@ if (!defined('_BENGI_RWD_VER_')) exit;
       <li><a href="#">Separated link</a></li>
       <li role="separator" class="divider"></li>
       <li><a href="#">One more separated link</a></li>
-    </ul></li>
+    </ul>
+  </li>
 </ul>
 
 <form class="navbar-form navbar-left" role="search">
