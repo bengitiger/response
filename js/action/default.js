@@ -11,7 +11,7 @@ $(function () {
     animationOutSpeed: 200,  // Animation out speed (ms)
     scrollImg: { active: true, type: 'background', src: '/js/scrollup/demo/img/top.png' }
   });  
-  
+    
   
   $("#owl-example").owlCarousel({
     items : 5,

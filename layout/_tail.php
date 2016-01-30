@@ -8,11 +8,11 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 
   <div class="container">
     <div class="row">
-    
+
       <div class="col-sm-4">
         <p>
-          <a href="#"><img src="/img/logo/logo.jpg" class="img-responsive center-to-left img-logo" /></a> 
-        </p>        
+          <a href="#"><img src="/img/logo/logo.jpg" class="img-responsive center-to-left img-logo" /></a>
+        </p>
         <div class="small center-to-left ">&copy; 2016 Company, Inc.</div>
       </div>
 
@@ -21,43 +21,40 @@ if (! defined ( '_BENGI_RWD_VER_' ))
           <p>
             <a href="#">Company, Inc.</a><br> <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
           </p>
-          
 
-          
-              <ul class="social">
-              	<li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="구글">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                </li>
-              	<li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="트위터">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                </li>
-              	<li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="페이스북">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                      </span>
-                    </a>
-                </li>
-              	<li>
-                
-                </li>
-              	<li>
-                
-                </li>
-              </ul>
+          <ul class="social">
+            <li>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="구글"> 
+                <span class="fa-stack fa-lg"> 
+                  <i class="fa fa-circle fa-stack-2x"></i> 
+                  <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="트위터"> 
+                <span class="fa-stack fa-lg"> 
+                  <i class="fa fa-circle fa-stack-2x"></i> 
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="페이스북"> 
+                <span class="fa-stack fa-lg"> 
+                  <i class="fa fa-circle fa-stack-2x"></i> 
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+            
+            </li>
+            <li>
+            
+            </li>
+          </ul>
 
-          
         </div>
       </div>
 
@@ -66,9 +63,9 @@ if (! defined ( '_BENGI_RWD_VER_' ))
           <button type="button" class="btn btn-default btn-sm">
             <span class="glyphicon glyphicon-bullhorn"></span><br> Feedback
           </button>
-        </span>        
+        </span>
       </div>
-      
+
     </div>
   </div>
 
@@ -83,7 +80,7 @@ if (! defined ( '_BENGI_RWD_VER_' ))
           메모리 : <?=round((memory_get_usage() / 1048576),3).' MB'?>
       </div>
     </div>
- </div>
+  </div>
 </section>
 
 <script src="//code.jquery.com/jquery.js" type="text/javascript"></script>
