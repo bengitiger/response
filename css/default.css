@@ -1,5 +1,13 @@
 @import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 
+
+/** -----------------------------------------
+ * 
+ *                    HTML 
+ * 
+ */
+ 
+
 html, body {
   font-family: 'Nanum Gothic','Pathway Gothic One','Helvetica Neue',Helvetica,Arial,sans-serif;  
 }
@@ -17,9 +25,27 @@ html.sub body {
 }
 
 
-
+/** -----------------------------------------
+ * 
+ *                    MAIN 
+ * 
+ */
 
 .jumbotron .h1,
 .jumbotron h1 {
   font-family: 'Oswald', sans-serif;
+} 
+
+
+
+/** -----------------------------------------
+ * 
+ *                  Footer 
+ * 
+ */
+ 
+footer img.img-logo {
+    border-radius: 50%;
+    width: 28%;
+    border: 0 solid #1690C7;
 } 

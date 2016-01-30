@@ -1,3 +1,14 @@
+
+/**
+ *   FontAwesome IE8  
+ */
+
+html.ie-force-pseudo-refresh:before,
+html.ie-force-pseudo-refresh:after {
+  content: none !important;
+}
+
+
 /**
  *   DEFINE I 
  */

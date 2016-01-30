@@ -8,11 +8,11 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 
   <div class="container">
     <div class="row">
+    
       <div class="col-sm-4">
         <p>
-          <a href="#"><img src="logo.gif" class="img-responsive center-to-left" /></a> 
-        </p>
-        
+          <a href="#"><img src="/img/logo/logo.jpg" class="img-responsive center-to-left img-logo" /></a> 
+        </p>        
         <div class="small center-to-left ">&copy; 2016 Company, Inc.</div>
       </div>
 
@@ -30,9 +30,9 @@ if (! defined ( '_BENGI_RWD_VER_' ))
           <button type="button" class="btn btn-default btn-sm">
             <span class="glyphicon glyphicon-bullhorn"></span><br> Feedback
           </button>
-        </span>
-        
+        </span>        
       </div>
+      
     </div>
   </div>
 
