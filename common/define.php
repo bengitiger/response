@@ -27,15 +27,21 @@ $GLB['url']['loc']   = $_SERVER["REQUEST_URI"];   // 현재 위치
  *
  */
 
-if( $GLB['url']['loc'] == '/' ) $GLB['url']['page']['loc'] = 'main';
+if( $GLB['url']['loc'] == '/' ) { 
+  $GLB['url']['page']['loc'] = 'main';
+  $GLB['url']['body']['class'] = 'main';  
+}  
 else {
 
+  $GLB['url']['body']['class'] = 'sub';
+  
   switch ( substr($GLB['url']['loc'], 1, -4 ) ) {
     case 'sub':
       $GLB['url']['page']['loc'] = 'menu1';
       break;
     case 'sub2':
       $GLB['url']['page']['loc'] = 'menu2';
+      $GLB['url']['body']['class'] = 'sub full';
       break;
     case 2:
       $GLB['url']['page']['loc'] = 'sub';

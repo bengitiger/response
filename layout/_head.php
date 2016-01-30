@@ -2,7 +2,7 @@
 if (!defined('_BENGI_RWD_VER_')) exit;
 ?>
 <!DOCTYPE html>
-<html lang="ko" class="<?php echo $vAgent ?> <?php echo ($GLB['url']['page']['loc']=='main') ? 'main':'sub' ?>">
+<html lang="ko" class="<?php echo $vAgent ?> <?php echo $GLB['url']['body']['class'] ?>">
   <head>
     <title>Title Page</title>
     <meta charset="utf-8">
