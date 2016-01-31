@@ -72,28 +72,7 @@ $(function () {
   });  
   
   
-  /** ----------------------------------------------------
-   * 
-   *                   부드럽게 이동 
-   * 
-   *  <div name="top"> </div>
-      <p>somethings</p>
-      <a href="#top"> Go to top </a>
-   * 
-   */
-  
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 700);
-        return false;
-      }
-    }
-  });  
+
   
   
   /** ----------------------------------------------------
@@ -148,12 +127,23 @@ $(function () {
   }  
   
   if( $("html").hasClass("full") ) {
+    
     $(window).resize(backgroundResize);
     $(window).resize(fullscreenFix);
     $(window).focus(backgroundResize);  
     
     fullscreenFix();
     backgroundResize();
+    
+    /**
+     *   링크 클릭시 Class 변경
+     */
+    
+    
+    
+    
+    
+    
   }  
   
   /** ----------------------------------------------------
