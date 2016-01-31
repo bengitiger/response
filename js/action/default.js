@@ -140,10 +140,10 @@ $(function () {
      *   링크 클릭시 Animation Class 변경
      */    
 
-    $(".masthead-nav a").mouseover(function() {
+    $(".masthead-nav a").mouseenter(function() {
       $(this).addClass('animated swing');
     })
-    .mouseout(function() {
+    .mouseleave(function() {
       $(this).removeClass('animated swing');
     });
 

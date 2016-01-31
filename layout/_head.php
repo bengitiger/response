@@ -4,7 +4,7 @@ if (!defined('_BENGI_RWD_VER_')) exit;
 <!DOCTYPE html>
 <html lang="ko" class="<?php echo $vAgent ?> <?php echo $GLB['url']['body']['class'] ?>">
   <head>
-    <title>Title Page</title>
+    <title>Bengi Response Layout</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
