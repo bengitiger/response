@@ -1,5 +1,11 @@
 $(function () {
   
+  /** ----------------------------------------------------
+   * 
+   *                      ScrollUp
+   * 
+   */  
+  
   $.scrollUp({
     animation: 'fade',
     // activeOverlay: '#00FFFF',    // false / Set CSS color to display scrollUp active point, e.g '#00FFFF'
@@ -13,6 +19,12 @@ $(function () {
   });  
     
   
+  /** ----------------------------------------------------
+   * 
+   *                         OWL
+   * 
+   */  
+  
   $("#owl-example").owlCarousel({
     items : 5,
     itemsCustom : false,
@@ -25,6 +37,11 @@ $(function () {
   
   // $(".fancybox").fancybox();
  
+  /** ----------------------------------------------------
+   * 
+   *                   Ajax Loading
+   * 
+   */ 
   
   // code for fade in element by element
   $.fn.fadeInWithDelay = function(){
@@ -51,6 +68,30 @@ $(function () {
         $('#nomoreresults').fadeIn();
         $('#content').stopScrollPagination();
        }
+    }
+  });  
+  
+  
+  /** ----------------------------------------------------
+   * 
+   *                   부드럽게 이동 
+   * 
+   *  <div name="top"> </div>
+      <p>somethings</p>
+      <a href="#top"> Go to top </a>
+   * 
+   */
+  
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
     }
   });  
   
