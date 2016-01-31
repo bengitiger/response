@@ -75,14 +75,14 @@ include_once 'layout/_head.php';
 </div>
 
 
-<section name="depth13" class="not-fullscreen">
+<section name="depth13" class="not-fullscreen" style="height: auto;padding: 50px 0 80px;">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
             
                     
         <div class="row">        
         
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
 
             <div class="ih-item square effect3 bottom_to_top"><a href="#">
                 <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
@@ -91,7 +91,7 @@ include_once 'layout/_head.php';
                   <p>Description goes here</p>
                 </div></a></div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
          
             <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
               <a href="#">
@@ -104,7 +104,7 @@ include_once 'layout/_head.php';
             </div>            
             
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
          
             <div class="ih-item square colored effect3 top_to_bottom">
               <a href="#">
@@ -119,18 +119,17 @@ include_once 'layout/_head.php';
           </div>
           
           
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
           
             <div class="ih-item square colored effect3 top_to_bottom"><a href="#">
             <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
             <div class="info">
               <h3>Heading here</h3>
               <p>Description goes here</p>
-            </div></a></div>
-          
+            </div></a></div>          
           
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
           
             <div class="ih-item square effect2"><a href="#">
             <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
@@ -140,7 +139,7 @@ include_once 'layout/_head.php';
             </div></a></div>          
           
           </div>
-          <div class="col-sm-4">
+          <div class="col-xs-6 col-sm-4">
           
             <div class="ih-item square colored effect2"><a href="#">
             <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
@@ -151,8 +150,701 @@ include_once 'layout/_head.php';
           
           </div>
 
-        </div>            
-            
+
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square effect4"><a href="#">
+              <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square colored effect4"><a href="#">
+              <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+              <div class="mask1"></div>
+              <div class="mask2"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square effect5 left_to_right"><a href="#">
+              <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square colored effect5 left_to_right"><a href="#">
+              <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square effect5 right_to_left"><a href="#">
+              <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+
+              <div class="ih-item square colored effect5 right_to_left"><a href="#">
+              <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+              <div class="info">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div></a></div>
+
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect6 from_top_and_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect6 from_top_and_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect6 from_left_and_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect6 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect6 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect6 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect6 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect7"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect7"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect8 scale_up"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect8 scale_up"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect8 scale_down"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect8 scale_down"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect10 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect10 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect10 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect10 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect10 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect10 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect10 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect10 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect11 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect11 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect11 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect11 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect11 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect11 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect11 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect11 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect12 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect12 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect12 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect12 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect12 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect12 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect12 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect12 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect13 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect13 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect13 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect13 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+                    
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect13 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect13 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect13 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          
+          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect13 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect14 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>          
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect14 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect14 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect14 right_to_left"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect14 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect14 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square effect14 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item square colored effect14 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle effect3 left_to_right"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>         
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+                   
+
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+          </div>
+
+
+        </div>
             
     </div>
   </div>

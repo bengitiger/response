@@ -81,6 +81,36 @@ html.full .masthead-nav > .active > a:focus {
 }
 
 
+html.full .background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position: 50% 0;
+    /* ie8- graceful degradation */
+    background-position: 50%\9 0 !important;
+}
+
+
+html.full .fullscreen,
+html.full .site-wrapper-inner {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+html.full .fullscreen.overflow,
+html.full .fullscreen.overflow .site-wrapper-inner {
+    height:auto;
+    min-height:100%;
+}
+
+
+html.full .not-fullscreen {
+    height:50%;
+    background:#9ed100;
+    display: table;
+    width: 100%;    
+}
+
 
 /*
  * Cover
@@ -121,7 +151,6 @@ html.full .mastfoot {
     float: right;
   }
 
-  /* Pull out the header and footer */
   html.full .masthead {
     position: fixed;
     top: 70px;
@@ -132,11 +161,10 @@ html.full .mastfoot {
     bottom: 0;
   }
   
-  /* Start the vertical centering */
   html.full .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
+
   html.full .masthead,
   html.full .mastfoot,
   html.full .site-wrapper-container {
@@ -149,38 +177,27 @@ html.full .mastfoot {
   html.full .masthead,
   html.full .mastfoot,
   html.full .site-wrapper-container {
-    width: 800px;
+    width: 950px;
   }
   
 }
 
 
-html.full .background {
-    background-repeat:no-repeat;
-    /* custom background-position */
-    background-position: 50% 0;
-    /* ie8- graceful degradation */
-    background-position: 50%\9 0 !important;
+/**
+ * 
+ *   Prd 이미지 효과
+ * 
+ */
+ 
+.ih-item.square {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.ih-item.circle {
+  margin: 10px auto 0;
+  
 }
 
 
-html.full .fullscreen,
-html.full .site-wrapper-inner {
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
 
-html.full .fullscreen.overflow,
-html.full .fullscreen.overflow .site-wrapper-inner {
-    height:auto;
-    min-height:100%;
-}
-
-
-html.full .not-fullscreen {
-    height:50%;
-    background:#9ed100;
-    display: table;
-    width: 100%;    
-}
