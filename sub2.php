@@ -1307,30 +1307,94 @@ include_once 'layout/_head.php';
           </div>
           <div class="col-xs-6 col-sm-4">
           
+            <div class="ih-item circle effect17"><a href="#">
+            <div class="img"><img src="/img/prd/7.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
           </div>
           <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle colored effect17"><a href="#">
+            <div class="img"><img src="/img/prd/8.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
           
           </div>
                    
 
           <div class="col-xs-6 col-sm-4">
           
-          </div>
-          <div class="col-xs-6 col-sm-4">
+            <div class="ih-item circle effect19"><a href="#">
+            <div class="img"><img src="/img/prd/1.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
           
           </div>
           <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle colored effect19"><a href="#">
+            <div class="img"><img src="/img/prd/2.jpg" alt="img"></div>
+            <div class="info">
+              <h3>Heading here</h3>
+              <p>Description goes here</p>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle effect20 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/3.jpg" alt="img"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </div></a></div>          
           
           </div>
                    
 
           <div class="col-xs-6 col-sm-4">
           
-          </div>
-          <div class="col-xs-6 col-sm-4">
+            <div class="ih-item circle colored effect20 top_to_bottom"><a href="#">
+            <div class="img"><img src="/img/prd/4.jpg" alt="img"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </div></a></div>          
           
           </div>
           <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle effect20 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/5.jpg" alt="img"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </div></a></div>          
+          
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          
+            <div class="ih-item circle colored effect20 bottom_to_top"><a href="#">
+            <div class="img"><img src="/img/prd/6.jpg" alt="img"></div>
+            <div class="info">
+              <div class="info-back">
+                <h3>Heading here</h3>
+                <p>Description goes here</p>
+              </div>
+            </div></a></div>          
           
           </div>
                    
