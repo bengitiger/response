@@ -23,6 +23,8 @@ var paths = {
                '!js/build/*.js'
     ],
     css: [ 'css/*.css', 
+           'css/**/*.css',
+           'css/ihover/src/*.min.css',
            'js/bootstrap/css/*.min.css',
            'js/fancyBox/source/*.css',
            'js/fancyBox/source/helpers/*.css',

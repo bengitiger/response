@@ -13,9 +13,9 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link rel="icon" href="/img/favicon.ico">    
     
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/ie10-viewport.css" rel="stylesheet">
-        
-    <link href="/css/animate.css" rel="stylesheet">    
+    <link href="/css/ie10-viewport.css" rel="stylesheet">        
+    <link href="/css/animate/animate.css" rel="stylesheet">
+    <link href="/css/ihover/src/ihover.min.css" rel="stylesheet">    
     <link href="/js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="/js/owl-carousel/owl.theme.css" rel="stylesheet">
     <link href="/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
