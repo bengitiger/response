@@ -20,63 +20,98 @@ include_once 'layout/_head.php';
       
       <div class="row">
 
-        <div class="col-xs-6 col-lg-4">
-          <h2><i class="fa fa-user-md  fa-lg"></i> Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
+        <?php 
+        for($i=1;$i<=5;$i++) {
+        ?>
 
-        <div class="col-xs-6 col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2><i class="fa fa-user-md  fa-lg"></i> Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              <p>
+                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+              </p>
+            </div>
 
-        <div class="col-xs-6 col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
-
-        <div class="col-xs-6 col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
-
-        <div class="col-xs-6 col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
-
-        <div class="col-xs-6 col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-          </p>
-        </div>
+        <?php 
+        }
+        ?>
 
       </div>
       
     </div>
     
+    
+    
+    
+    
+    
+
+    <style>
+    .affix {
+      // top: 70px;   
+    }
+    </style>
+    
+    <script>
+    /*
+    $(document).ready(function(){
+       $('#sidebar .nav').affix({offset: {top: 205} }); 
+    });
+    */
+    </script>
 
     <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-      <div class="list-group">
-        <a href="#" class="list-group-item active">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#"
-          class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a> <a href="#" class="list-group-item">Link</a>
+      <div class="list-group" data-spy="affix" data-offset-top="205">
+        <a href="#" class="list-group-item active">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a> 
+        <a href="#" class="list-group-item">Link</a>
       </div>
     </div>
     
