@@ -55,12 +55,76 @@ $(function () {
   });  
   
   
+  /** ----------------------------------------------------
+   * 
+   *                  sub2 - full 화면 
+   * 
+   */
+
+  function fullscreenFix(){
+    var h = $('body').height();
+    $(".site-wrapper-container").each(function(i){
+        if($(this).innerHeight() > h){
+            $(this).closest(".fullscreen").addClass("overflow");
+        }
+    });
+  }
+
+  // resize background images
+  function backgroundResize(){
+      var windowH = $(window).height();
+      
+      $(".background").each(function(i){
+          var path = $(this);
+          // variables
+          var contW = path.width();
+          var contH = path.height();
+          var imgW = path.attr("data-img-width");
+          var imgH = path.attr("data-img-height");
+          var ratio = imgW / imgH;
+          // overflowing difference
+          var diff = parseFloat(path.attr("data-diff"));
+          diff = diff ? diff : 0;
+          // remaining height to have fullscreen image only on parallax
+          var remainingH = 0;
+          if(path.hasClass("parallax")){
+              var maxH = contH > windowH ? contH : windowH;
+              remainingH = windowH - contH;
+          }
+          // set img values depending on cont
+          imgH = contH + remainingH + diff;
+          imgW = imgH * ratio;
+          // fix when too large
+          if(contW > imgW){
+              imgW = contW;
+              imgH = imgW / ratio;
+          }
+          //
+          path.data("resized-imgW", imgW);
+          path.data("resized-imgH", imgH);
+          path.css("background-size", imgW + "px " + imgH + "px");
+      });
+  }  
   
+  if( $("html").hasClass("full") ) {
+    $(window).resize(backgroundResize);
+    $(window).resize(fullscreenFix);
+    $(window).focus(backgroundResize);  
+    
+    fullscreenFix();
+    backgroundResize();
+  }  
   
-    var ggr_stime = new Date(); 
-    function ggr_showtime(){ $('#ggrshowtime').html( (((new Date())-ggr_stime)/1000)+' sec' ); } 
-    window.onstop = ggr_showtime; 
-    window.onload = ggr_showtime; 
+  /** ----------------------------------------------------
+   * 
+   *                        실행 시간
+   * 
+   */
+  
+  var ggr_stime = new Date(); 
+  function ggr_showtime(){ $('#ggrshowtime').html( (((new Date())-ggr_stime)/1000)+' sec' ); } 
+  window.onstop = ggr_showtime; 
+  window.onload = ggr_showtime; 
   
   
 });

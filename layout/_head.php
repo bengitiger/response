@@ -27,8 +27,9 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
     
-    <link href="/css/bengi-lib.css" rel="stylesheet" media="screen">        
+    <link href="/css/bengi-lib.css" rel="stylesheet" media="screen">
     <link href="/css/default.css" rel="stylesheet" media="screen">
+    <link href="/css/html-full.css" rel="stylesheet" media="screen">
     <link href="/css/response.css" rel="stylesheet" media="screen">
      
     <!--[if lt IE 9]>
