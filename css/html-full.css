@@ -36,7 +36,7 @@ html.full .site-wrapper-container {
 
 /* Padding for spacing */
 html.full .inner {
-  padding: 30px;
+  padding: 10px 30px 50px;
 }
 
 
@@ -62,7 +62,7 @@ html.full .masthead-nav > li > a {
   font-size: 14px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  /* color: rgba(255,255,255,.75); */
   border-bottom: 2px solid transparent;
 }
 
@@ -106,9 +106,10 @@ html.full .fullscreen.overflow .site-wrapper-inner {
 
 html.full .not-fullscreen {
     height:50%;
-    background:#9ed100;
+    background: #f3f3f3;
     display: table;
     width: 100%;    
+    border-top: 1px solid #222;
 }
 
 
@@ -141,7 +142,7 @@ html.full .mastfoot {
  */
  
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   html.full .masthead-brand {
     float: left;
@@ -153,7 +154,7 @@ html.full .mastfoot {
 
   html.full .masthead {
     position: fixed;
-    top: 70px;
+    top: 90px;
     z-index: 2;
   }
   
@@ -173,7 +174,7 @@ html.full .mastfoot {
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   
   html.full .masthead,
   html.full .mastfoot,
@@ -200,5 +201,7 @@ html.full .mastfoot {
   
 }
 
-
+.ih-item.square {
+  border: 1px solid #fff;
+}
 

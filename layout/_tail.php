@@ -99,8 +99,10 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 <script src="/js/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7" type="text/javascript"></script>
 <script src="/js/scrollup/dist/jquery.scrollUp.js" type="text/javascript"></script>
 <script src="/js/scrollpage/scripts/scrollpagination.js" type="text/javascript"></script>
+<script src="/js/timer/jquery.timer.js" type="text/javascript"></script>
 
 <script src="/js/action/bengi_rwd_lib.js"></script>
 <script src="/js/action/default.js"></script>
+<script src="/js/action/bengi_timer.js"></script>
 </body>
 </html>

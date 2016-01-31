@@ -9,10 +9,10 @@ include_once 'layout/_head.php';
 
         <div class="masthead clearfix">
           <div class="inner">
-            <h3 class="masthead-brand">Cover</h3>
+            <h3 class="masthead-brand">BENGI</h3>
             <nav>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#depth11" data-scroll>Home</a></li>
+                <li><a href="#depth11" data-scroll>Home</a></li>
                 <li><a href="#depth12" data-scroll>Features</a></li>
                 <li><a href="#depth13" data-scroll>Img</a></li>
                 <li><a href="#depth14" data-scroll>Contact</a></li>
@@ -50,7 +50,7 @@ include_once 'layout/_head.php';
 </div>
 
 
-<div name="depth12" class="not-fullscreen background" data-img-width="1600" data-img-height="1064" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg');">
+<div name="depth12" class="not-fullscreen background" data-img-width="1600" data-img-height="1064" style="background-image:url('/img/back/2.jpg');">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
   
@@ -1453,7 +1453,7 @@ include_once 'layout/_head.php';
 
 
 
-<div name="depth14" class="site-wrapper fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_DSC_3274.jpg');background-position:100% 50%;" data-img-width="1600" data-img-height="1064">
+<div name="depth14" class="site-wrapper fullscreen background" style="background-image:url('/img/back/3.jpg');background-position:100% 50%;" data-img-width="1600" data-img-height="1064">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
             Centered content
@@ -1471,7 +1471,7 @@ include_once 'layout/_head.php';
     </div>
 </section>
   
-<div name="depth16" class="fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_9857.jpg');" data-img-width="1600" data-img-height="1064">
+<div name="depth16" class="fullscreen background" style="background-image:url('/img/back/1.jpg');" data-img-width="1600" data-img-height="1064">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
             <br>Content overflow<br>Content overflow
@@ -1483,7 +1483,7 @@ include_once 'layout/_head.php';
   </div>
 </div>
   
-<div name="depth17" class="not-fullscreen background" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_8697.jpg');" data-img-width="1600" data-img-height="1064">
+<div name="depth17" class="not-fullscreen background" style="background-image:url('/img/back/5.jpg');" data-img-width="1600" data-img-height="1064">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
             Centered content

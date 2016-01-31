@@ -135,13 +135,19 @@ $(function () {
     fullscreenFix();
     backgroundResize();
     
+    
     /**
-     *   링크 클릭시 Class 변경
-     */
-    
-    
-    
-    
+     *   링크 클릭시 Animation Class 변경
+     */    
+
+    $(".masthead-nav a").mouseover(function() {
+      $(this).addClass('animated swing');
+    })
+    .mouseout(function() {
+      $(this).removeClass('animated swing');
+    });
+
+
     
     
   }  
