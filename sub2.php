@@ -3,7 +3,7 @@ include_once './common/_common.php';
 include_once 'layout/_head.php';
 ?>
 
-<div name="depth1" class="site-wrapper fullscreen background" data-img-width="1600" data-img-height="1064">
+<div name="depth11" class="site-wrapper fullscreen background" data-img-width="1600" data-img-height="1064">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
 
@@ -12,9 +12,9 @@ include_once 'layout/_head.php';
             <h3 class="masthead-brand">Cover</h3>
             <nav>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#depth1">Home</a></li>
-                <li><a href="#depth2">Features</a></li>
-                <li><a href="#depth3">Contact</a></li>
+                <li class="active"><a href="#depth11" data-scroll>Home</a></li>
+                <li><a href="#depth12" data-scroll>Features</a></li>
+                <li><a href="#depth13" data-scroll>Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -45,7 +45,7 @@ include_once 'layout/_head.php';
 </div>
 
 
-<div name="depth2" class="not-fullscreen background" data-img-width="1600" data-img-height="1064" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg');">
+<div name="depth12" class="not-fullscreen background" data-img-width="1600" data-img-height="1064" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6643.jpg');">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
   
@@ -70,7 +70,7 @@ include_once 'layout/_head.php';
 </div>
 
 
-<section name="depth3" class="not-fullscreen">
+<section name="depth13" class="not-fullscreen">
   <div class="site-wrapper-inner">
     <div class="site-wrapper-container">
             Centered content
