@@ -28,7 +28,11 @@ include_once 'layout/_head.php';
               <h2><i class="fa fa-user-md  fa-lg"></i> Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-danger">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
     
@@ -36,7 +40,11 @@ include_once 'layout/_head.php';
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-warning">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
     
@@ -44,7 +52,11 @@ include_once 'layout/_head.php';
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-info">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
     
@@ -52,7 +64,11 @@ include_once 'layout/_head.php';
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-success">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
     
@@ -60,7 +76,11 @@ include_once 'layout/_head.php';
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-primary">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
     
@@ -68,7 +88,11 @@ include_once 'layout/_head.php';
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
               <p>
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details 
+                    <span class="badge">5</span> 
+                    <span class="label label-default">Label</span> 
+                    &raquo; 
+                </a>
               </p>
             </div>
 
