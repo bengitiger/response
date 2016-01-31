@@ -5,7 +5,7 @@ $(function () {
      */
     
     var vchklogo = true;
-    var timer = $.timer(function() {
+    var bengi_timer = $.timer(function() {
        if(vchklogo) vchklogo = false;         
        else vchklogo = true;         
        
@@ -37,6 +37,6 @@ $(function () {
     
     
     
-    timer.set({ time : 2000, autostart : true });
+    bengi_timer.set({ time : 2000, autostart : true });
     
 });
