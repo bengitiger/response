@@ -18,6 +18,10 @@ include_once 'layout/_head.php';
         <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
       </div>
       
+      <div class="page-header">
+        <h1>List groups</h1>
+      </div>      
+      
       <div class="row">
 
         <?php 

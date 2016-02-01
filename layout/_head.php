@@ -13,6 +13,8 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link rel="icon" href="/img/favicon.ico">    
     
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    
     <link href="/css/ie10-viewport.css" rel="stylesheet">        
     <link href="/css/animate/animate.css" rel="stylesheet">
     <link href="/css/ihover/src/ihover.min.css" rel="stylesheet">    

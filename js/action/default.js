@@ -72,7 +72,10 @@ $(function () {
   });  
   
   
-
+  $('.carousel').carousel({
+    interval: false,   // 2000,
+    pause: true
+  });
   
   
   /** ----------------------------------------------------
