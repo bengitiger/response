@@ -67,3 +67,13 @@ footer ul.social {
 footer ul.social li {
   float: left;  
 }
+
+/** -----------------------------------------
+ * 
+ *               사이트 속도 
+ * 
+ */
+
+#pagecreateinfo {
+  color: #222 !important;
+}

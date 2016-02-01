@@ -137,6 +137,10 @@ html.full .mastfoot {
 }
 
 
+html.full footer {
+  color: #222;
+}
+
 /*
  * Affix and center
  */
