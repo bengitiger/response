@@ -1,5 +1,23 @@
 $(function () {
   
+  
+  /** ----------------------------------------------------
+   * 
+   *                      Navbar
+   * 
+   */   
+  
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 150) {
+        $('.navbar').addClass('black');
+    }
+    else {
+        $('.navbar').removeClass('black');
+    }
+  });  
+  
+  
+  
   /** ----------------------------------------------------
    * 
    *                      ScrollUp
@@ -151,11 +169,24 @@ $(function () {
     .mouseleave(function() {
       $(this).removeClass('animated swing');
     });
+  }
+  
+  
+  /** ----------------------------------------------------
+   * 
+   *                  sub3  
+   * 
+   */
 
-
-    
-    
-  }  
+  
+  
+  $('#myTabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+  
+  
+  
   
   /** ----------------------------------------------------
    * 
