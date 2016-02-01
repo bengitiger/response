@@ -12,7 +12,7 @@ include_once 'layout/_head.php';
 
 .carousel {
   background: #2f4357;
-  max-height: 400px;   
+  max-height: 500px;   
 }
 
 .carousel .item img{

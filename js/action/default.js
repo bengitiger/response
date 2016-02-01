@@ -19,11 +19,17 @@ $(function () {
   });  
     
   
+  
+  
+  
   /** ----------------------------------------------------
    * 
-   *                         OWL
+   *                        MAIN 
    * 
    */  
+  
+  
+  //  OWL
   
   $("#owl-example").owlCarousel({
     items : 5,
@@ -37,20 +43,15 @@ $(function () {
   
   // $(".fancybox").fancybox();
  
-  /** ----------------------------------------------------
-   * 
-   *                   Ajax Loading
-   * 
-   */ 
-  
-  // code for fade in element by element
+  // Ajax Loading
+
   $.fn.fadeInWithDelay = function(){
     var delay = 0;
     return this.each(function(){
       $(this).delay(delay).animate({opacity:1}, 200);
       delay += 100;
     });
-  };  
+  };
   
   $('#content').scrollPagination({
     'contentPage': '/js/scrollpage/democontent.html', // the url you are fetching the results
@@ -72,9 +73,10 @@ $(function () {
   });  
   
   
+  // carousel
+  
   $('.carousel').carousel({
-    interval: false,   // 2000,
-    pause: true
+    interval: 3000   // 2000, false
   });
   
   
