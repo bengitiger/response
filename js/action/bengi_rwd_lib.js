@@ -20,9 +20,24 @@ $(function () {
   
   /** ----------------------------------------------------
    * 
+   *                         Image
+   * 
+   */  
+  
+  $("img.lazy").lazyload({
+     failure_limit : 10,
+     threshold : 0
+     // effect : "fadeIn"
+  });
+  
+  
+  
+  /** ----------------------------------------------------
+   * 
    *                   Tool Tip 
    * 
    */
+  
   $('[data-toggle="tooltip"]').tooltip();     // Tool Tip
   
   
@@ -53,8 +68,7 @@ $(function () {
   });    
   
   
-  
-  
+
   
   
 });

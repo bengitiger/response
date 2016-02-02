@@ -43,8 +43,9 @@ else {
       $GLB['url']['page']['loc'] = 'menu2';
       $GLB['url']['body']['class'] = 'sub full';
       break;
-    case 2:
+    case 'sub3':
       $GLB['url']['page']['loc'] = 'sub';
+      $GLB['url']['body']['class'] = 'sub sub3';
       break;
     default:
       $GLB['url']['page']['loc'] = 'sub';

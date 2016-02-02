@@ -101,6 +101,9 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 <script src="/js/scrollup/dist/jquery.scrollUp.js" type="text/javascript"></script>
 <script src="/js/scrollpage/scripts/scrollpagination.js" type="text/javascript"></script>
 <script src="/js/scrollpage2/smoothscroll.js" type="text/javascript"></script>
+<script src="/js/lazyload/jquery.lazyload.min.js" type="text/javascript"></script>
+
+
 <script src="/js/timer/jquery.timer.js" type="text/javascript"></script>
 
 <script src="/js/action/bengi_rwd_lib.js"></script>
