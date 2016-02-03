@@ -174,11 +174,9 @@ $(function () {
   
   /** ----------------------------------------------------
    * 
-   *                  sub3  
+   *                         sub3  
    * 
-   */
-
-  
+   */  
   
   $('#myTabs a').click(function (e) {
     e.preventDefault()
@@ -186,11 +184,66 @@ $(function () {
   })
   
   
+  /**
+   *   Image Popup
+   */
+  
+  $('.img-popup-link').magnificPopup({
+    preloader: true,
+    type: 'image',
+    tClose: 'Close (Esc)',
+    tLoading: 'Loading...',
+    removalDelay: 0,
+    mainClass: 'mfp-fade',
+    disableOn: 400,
+    gallery: {
+      enabled: true
+    },
+    image: {
+      titleSrc: 'title'
+    }
+  });
+  
+  
+  /**
+   *   Image - Gallery
+   */  
+  $('.parent-container').magnificPopup({
+    delegate: 'a', 
+    type: 'image',
+    gallery:{
+      enabled:true,
+      preload: [0,2],      
+      navigateByImgClick: true,
+      arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',       
+      
+      tPrev: 'Previous (Left arrow key)',
+      tNext: 'Next (Right arrow key)',
+      tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
+    },
+    image: {
+      markup: '<div class="mfp-figure">'+
+                '<div class="mfp-close"></div>'+
+                '<div class="mfp-img"></div>'+
+                '<div class="mfp-bottom-bar">'+
+                  '<div class="mfp-title"></div>'+
+                  '<div class="mfp-counter"></div>'+
+                '</div>'+
+              '</div>',
+      cursor: 'mfp-zoom-out-cur',
+      titleSrc: function(item) {
+         return item.el.attr('title');
+      },
+      verticalFit: true,
+      tError: '<a href="%url%">The image</a> could not be loaded.'
+    }  
+  });  
+  
   
   
   /** ----------------------------------------------------
    * 
-   *                        실행 시간
+   *                     실행 시간
    * 
    */
   

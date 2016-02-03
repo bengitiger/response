@@ -34,12 +34,39 @@ include_once 'layout/_head.php';
 
       <div class="col-xs-12 col-lg-4">
       
-      
-      
-          <img data-original="img/back/1.jpg" class="lazy img-responsive img-thumbnail">   
-           
-      
-      
+          <a class="img-popup-link" href="img/back/1.jpg">
+            <img data-original="img/back/1.jpg" class="lazy img-responsive img-thumbnail">      
+          </a> 
+          
+          
+          <div class="row parent-container">
+          
+            <div class="col-xs-4 col-lg-4">
+              <a href="img/back/2.jpg" title="image 1">
+                <img data-original="img/back/2.jpg" class="lazy img-responsive img-thumbnail">  
+              </a>            
+            </div>
+            <div class="col-xs-4 col-lg-4">
+              <a href="img/back/3.jpg" title="image 2">
+                <img data-original="img/back/3.jpg" class="lazy img-responsive img-thumbnail">  
+              </a>            
+            </div>
+            <div class="col-xs-4 col-lg-4">
+              <a href="img/back/1.jpg" title="image 3">
+                <img data-original="img/back/1.jpg" class="lazy img-responsive img-thumbnail">  
+              </a>            
+            </div>   
+            
+
+            <div class="col-xs-4 col-lg-4">
+              <a href="img/back/5.jpg" title="image 4">
+                <img data-original="img/back/5.jpg" class="lazy img-responsive img-thumbnail">  
+              </a>            
+            </div>   
+
+                   
+          </div>      
+          
       </div>
       <div class="col-xs-12 col-lg-8">
       
