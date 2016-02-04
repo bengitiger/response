@@ -246,7 +246,7 @@ $(function () {
    * 
    */  
   
-  $('#maximage').maximage({
+  $('html.sub5 #maximage').maximage({
     cycleOptions: {
         fx:'scrollHorz',
         speed: 800,
@@ -260,6 +260,7 @@ $(function () {
         jQuery('#maximage').fadeIn('fast');
     }
   });
+
   
   
   

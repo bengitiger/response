@@ -68,6 +68,7 @@ include_once 'layout/_head.php';
     <img src="/img/back/3.jpg" alt=""> 
     <img src="/img/back/2.jpg" alt="">
   </div>
+    
 
   <a href="#" id="logo"><img src="/js/maximage/lib/images/demo/logo.png" alt="" /></a> 
   <a href="#" id="arrow_left"><img src="/js/maximage/lib/images/demo/arrow_left.png" alt="Left" /></a> 
