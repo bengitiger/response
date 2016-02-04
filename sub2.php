@@ -15,7 +15,7 @@ include_once 'layout/_head.php';
                 <li><a href="#depth11" data-scroll>Home</a></li>
                 <li><a href="#depth12" data-scroll>Features</a></li>
                 <li><a href="#depth13" class="smoothScroll">Img</a></li>
-                <li><a href="#depth14" data-scroll>Contact</a></li>
+                <li><a href="#depth14" class="smoothScroll">Contact</a></li>
                 <li><a href="#depth15" data-scroll>Contact</a></li>
                 <li><a href="#depth16" data-scroll>Contact</a></li>
                 <li><a href="#depth17" data-scroll>Contact</a></li>

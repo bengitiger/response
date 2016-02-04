@@ -23,7 +23,8 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link href="/js/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen">
     <link href="/js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" type="text/css" media="screen">
     <link href="/js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" type="text/css" media="screen">    
-    <link href="/js/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="/js/magnific-popup/dist/magnific-popup.css" rel="stylesheet">    
+    <link href="/js/maximage/lib/css/jquery.maximage.css?v=1.2" type="text/css" media="screen" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     
@@ -39,6 +40,10 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->    
+    
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
     <![endif]-->    
   </head>
   <body>
