@@ -42,7 +42,7 @@ include_once 'layout/_head.php';
           <div class="row parent-container">
           
             <div class="col-xs-4 col-lg-4">
-              <a href="img/back/2.jpg" title="image 1">
+              <a href="img/back/2.jpg" title="<b style='color: yellow;'>TEST</b> - image 1">
                 <img data-original="img/back/2.jpg" class="lazy img-responsive img-thumbnail">  
               </a>            
             </div>
