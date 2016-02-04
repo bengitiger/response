@@ -6,20 +6,20 @@ include_once 'layout/_head.php';
 
 <style type="text/css" media="screen">
 
-      html.sub body {
+      html.sub5 body {
         padding-top: 0;
       }
 
-      .sub5maximg {
+      html.sub5 .sub5maximg {
          overflow: hidden;      
       }
       
-      #maximage {
+      html.sub5 #maximage {
 /*        position:fixed !important;*/
         position:relative !important;
       }
 
-      #logo {
+      html.sub5 #logo {
         bottom:30px;
         height:auto;
         left:30px;
@@ -27,11 +27,12 @@ include_once 'layout/_head.php';
         width:34%;
         z-index:1000;
       }
-      #logo img {
+      html.sub5 #logo img {
         width:100%;
       }
 
-      #arrow_left, #arrow_right {
+      html.sub5 #arrow_left, 
+      html.sub5 #arrow_right {
         bottom:30px;
         height:67px;
         position:absolute;
@@ -40,19 +41,19 @@ include_once 'layout/_head.php';
         z-index:1000;
       }
       
-      #arrow_left {
+      html.sub5 #arrow_left {
         right:86px;
       }
 
-      #arrow_left:hover, #arrow_right:hover {
+      html.sub5 #arrow_left:hover, 
+      html.sub5 #arrow_right:hover {
         bottom:29px;
       }
       
-      #arrow_left:active, #arrow_right:active {
+      html.sub5 #arrow_left:active, 
+      html.sub5 #arrow_right:active {
         bottom:28px;
       }
-      
-      
       
     </style>
 
