@@ -3,62 +3,6 @@ include_once './common/_common.php';
 include_once 'layout/_head.php';
 ?>
 
-
-<style type="text/css" media="screen">
-
-      html.sub5 body {
-        padding-top: 0;
-      }
-
-      html.sub5 .sub5maximg {
-         overflow: hidden;      
-      }
-      
-      html.sub5 #maximage {
-/*        position:fixed !important;*/
-        position:relative !important;
-      }
-
-      html.sub5 #logo {
-        bottom:30px;
-        height:auto;
-        left:30px;
-        position:absolute;
-        width:34%;
-        z-index:1000;
-      }
-      html.sub5 #logo img {
-        width:100%;
-      }
-
-      html.sub5 #arrow_left, 
-      html.sub5 #arrow_right {
-        bottom:30px;
-        height:67px;
-        position:absolute;
-        right: 30px;
-        width: 36px;
-        z-index:1000;
-      }
-      
-      html.sub5 #arrow_left {
-        right:86px;
-      }
-
-      html.sub5 #arrow_left:hover, 
-      html.sub5 #arrow_right:hover {
-        bottom:29px;
-      }
-      
-      html.sub5 #arrow_left:active, 
-      html.sub5 #arrow_right:active {
-        bottom:28px;
-      }
-      
-    </style>
-
-
-
 <section class="sub5maximg">
 
   <div id="maximage">
@@ -67,10 +11,9 @@ include_once 'layout/_head.php';
     <img src="/img/back/sky.jpg" alt="">    
     <img src="/img/back/3.jpg" alt=""> 
     <img src="/img/back/2.jpg" alt="">
-  </div>
-    
+  </div>    
 
-  <a href="#" id="logo"><img src="/js/maximage/lib/images/demo/logo.png" alt="" /></a> 
+  <a href="#" id="logo"><img src="/img/logo/logo.png" alt="" /></a> 
   <a href="#" id="arrow_left"><img src="/js/maximage/lib/images/demo/arrow_left.png" alt="Left" /></a> 
   <a href="#" id="arrow_right"><img src="/js/maximage/lib/images/demo/arrow_right.png" alt="Right" /></a>
 
@@ -78,18 +21,9 @@ include_once 'layout/_head.php';
 
 
 
-
-
-
-
-
-
-
-
-
 <div class="container">
 
-  <section class="sub3tab">
+  <section class="sub5tab">
 
     <div class="page-header">
       <h1>List groups</h1>

@@ -95,6 +95,66 @@ footer ul.social li {
   float: left;  
 }
 
+
+
+/** -----------------------------------------
+ * 
+ *                  HTML 5 
+ * 
+ */
+
+
+html.sub5 body {
+  padding-top: 0;
+}
+
+html.sub5 .sub5maximg {
+  overflow: hidden;
+}
+
+html.sub5 #maximage {
+  /*        position:fixed !important;*/
+  position: relative !important;
+}
+
+html.sub5 #logo {
+  bottom: 30px;
+  height: auto;
+  left: 30px;
+  position: absolute;
+  width: 34%;
+  z-index: 1000;
+}
+
+html.sub5 #logo img {
+  width: 100%;
+}
+
+html.sub5 #arrow_left, html.sub5 #arrow_right {
+  bottom: 30px;
+  height: 67px;
+  position: absolute;
+  right: 30px;
+  width: 36px;
+  z-index: 1000;
+}
+
+html.sub5 #arrow_left {
+  right: 86px;
+}
+
+html.sub5 #arrow_left:hover, html.sub5 #arrow_right:hover {
+  bottom: 29px;
+}
+
+html.sub5 #arrow_left:active, html.sub5 #arrow_right:active {
+  bottom: 28px;
+}
+
+
+
+
+
 /** -----------------------------------------
  * 
  *               사이트 속도 
