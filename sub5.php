@@ -3,9 +3,10 @@ include_once './common/_common.php';
 include_once 'layout/_head.php';
 ?>
 
-<section class="sub5maximg">
+<section id="sub5maximg">
 
   <div id="maximage">
+    <img src="/img/back/7.jpg" alt="">
     <img src="/img/back/5.jpg" alt="">
     <img src="/img/back/1.jpg" alt="">
     <img src="/img/back/sky.jpg" alt="">    

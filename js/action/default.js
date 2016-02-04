@@ -258,7 +258,9 @@ $(function () {
     onFirstImageLoaded: function(){
         jQuery('#cycle-loader').hide();
         jQuery('#maximage').fadeIn('fast');
-    }
+    },
+    fillElement: '#sub5maximg',
+    backgroundSize: 'contain'
   });
 
   

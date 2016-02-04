@@ -99,7 +99,7 @@ footer ul.social li {
 
 /** -----------------------------------------
  * 
- *                  HTML 5 
+ *                  Sub 5 
  * 
  */
 
@@ -108,8 +108,9 @@ html.sub5 body {
   padding-top: 0;
 }
 
-html.sub5 .sub5maximg {
+html.sub5 #sub5maximg {
   overflow: hidden;
+  width: 100%;
 }
 
 html.sub5 #maximage {
