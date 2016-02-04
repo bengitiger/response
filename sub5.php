@@ -35,10 +35,11 @@ include_once 'layout/_head.php';
         bottom:30px;
         height:67px;
         position:absolute;
-        right:30px;
-        width:36px;
+        right: 30px;
+        width: 36px;
         z-index:1000;
       }
+      
       #arrow_left {
         right:86px;
       }
@@ -46,9 +47,12 @@ include_once 'layout/_head.php';
       #arrow_left:hover, #arrow_right:hover {
         bottom:29px;
       }
+      
       #arrow_left:active, #arrow_right:active {
         bottom:28px;
       }
+      
+      
       
     </style>
 
@@ -56,23 +60,19 @@ include_once 'layout/_head.php';
 
 <section class="sub5maximg">
 
-            <div id="maximage">
-              <img src="/js/maximage/lib/images/demo/wall_portrait.jpg" alt="" width="1400" height="1050" />
-              <img src="/js/maximage/lib/images/demo/coalesse.jpg" alt="Coalesse" width="1400" height="1050" />
-              <img src="/js/maximage/lib/images/demo/laughing.jpg" alt="" width="1400" height="1050" />
-              <img src="/js/maximage/lib/images/demo/roof_shooting.jpg" alt="" width="2048" height="1536" />
-              <img src="/js/maximage/lib/images/demo/man.jpg" alt="" width="2048" height="1536" />
-              <img src="/js/maximage/lib/images/demo/coffee_shop.jpg" alt="" width="2048" height="1536" />
-              <img src="/js/maximage/lib/images/demo/gas_station.jpg" alt="" width="2048" height="1536" />
-            </div>
-            
-            <a href="#" id="logo">
-              <img src="/js/maximage/lib/images/demo/logo.png" alt="MaxImage: Uses jQuery Cycle Plugin to create background slideshows" />
-            </a>
-            <a href="#" id="arrow_left"><img src="/js/maximage/lib/images/demo/arrow_left.png" alt="Slide Left" /></a>
-            <a href="#" id="arrow_right"><img src="/js/maximage/lib/images/demo/arrow_right.png" alt="Slide Right" /></a>
-   
-</section>     
+  <div id="maximage">
+    <img src="/img/back/5.jpg" alt="">
+    <img src="/img/back/1.jpg" alt="">
+    <img src="/img/back/sky.jpg" alt="">    
+    <img src="/img/back/3.jpg" alt=""> 
+    <img src="/img/back/2.jpg" alt="">
+  </div>
+
+  <a href="#" id="logo"><img src="/js/maximage/lib/images/demo/logo.png" alt="" /></a> 
+  <a href="#" id="arrow_left"><img src="/js/maximage/lib/images/demo/arrow_left.png" alt="Left" /></a> 
+  <a href="#" id="arrow_right"><img src="/js/maximage/lib/images/demo/arrow_right.png" alt="Right" /></a>
+
+</section>
 
 
 
@@ -86,8 +86,6 @@ include_once 'layout/_head.php';
 
 
 <div class="container">
-
-
 
   <section class="sub3tab">
 
