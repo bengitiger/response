@@ -111,6 +111,7 @@ include_once 'layout/_head.php';
               40%
             </div>
           </div>        
+          
 
       </div>
       
@@ -119,6 +120,132 @@ include_once 'layout/_head.php';
 </section>
   
   
+  
+  
+
+
+
+<section class="container sub7-1">
+
+    <div class="page-header">
+      <h1>Dialog</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-3 col-lg-3 text-center">
+      
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Launch demo modal
+            </button>
+            
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>      
+        
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3 text-center">
+
+          
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                
+                  <p> 내용 </p>
+
+              </div>
+            </div>
+          </div>
+          
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+          <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+
+                  <p> 내용 </p>                
+                
+              </div>
+            </div>
+          </div>
+
+      
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3 text-center">
+      
+      
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example2-modal-sm">Small modal</button>
+                
+          <div class="modal fade bs-example2-modal-sm" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="gridSystemModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-9">
+                      Level 1: .col-sm-9
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-6">
+                          Level 2: .col-xs-8 .col-sm-6
+                        </div>
+                        <div class="col-xs-4 col-sm-6">
+                          Level 2: .col-xs-4 .col-sm-6
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>      
+      
+      
+      </div>
+      <div class="col-xs-12 col-sm-3 col-lg-3 text-center">      
+
+
+
+      </div>      
+      
+   </div>
+   
+</section>   
+
+
+      
 
 
   
