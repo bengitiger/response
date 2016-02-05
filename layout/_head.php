@@ -35,6 +35,11 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <link href="/css/default.css" rel="stylesheet" media="screen">
     <link href="/css/html-full.css" rel="stylesheet" media="screen">
     <link href="/css/response.css" rel="stylesheet" media="screen">
+    
+    <?php 
+    if($GLB['chkMobile']) echo '<link href="/css/mobile.css" rel="stylesheet" media="screen">';
+    else echo '<link href="/css/pc.css" rel="stylesheet" media="screen">'; 
+    ?>
      
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

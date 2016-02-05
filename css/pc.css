@@ -1,3 +1,8 @@
-html.win {
+html.win,
+html.win body {
   font-size: 12px;
+}
+
+html.win .navbar {
+  font-size: 14px;  
 }
