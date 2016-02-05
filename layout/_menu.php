@@ -9,7 +9,7 @@ if (!defined('_BENGI_RWD_VER_')) exit;
     <ul class="dropdown-menu">
       <li><a href="/sub3.php">SUB3</a></li>
       <li><a href="/sub5.php">SUB5</a></li>
-      <li><a href="#">Something else here</a></li>
+      <li><a href="/sub7.php">SUB7</a></li>
       <li role="separator" class="divider"></li>
       <li><a href="#">Separated link</a></li>
       <li role="separator" class="divider"></li>

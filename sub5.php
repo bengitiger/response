@@ -150,12 +150,10 @@ include_once 'layout/_head.php';
   
   
   
-  
-  
-  
-  
-
 </div>
+
+
+
 
 
 

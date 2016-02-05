@@ -51,6 +51,10 @@ else {
       $GLB['url']['page']['loc'] = 'sub';
       $GLB['url']['body']['class'] = 'sub sub5';
       break;
+    case 'sub7':
+      $GLB['url']['page']['loc'] = 'sub';
+      $GLB['url']['body']['class'] = 'sub sub7';
+      break;
     default:
       $GLB['url']['page']['loc'] = 'sub';
   }
