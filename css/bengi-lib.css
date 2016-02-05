@@ -36,6 +36,7 @@ html.ie-force-pseudo-refresh:after {
   text-align: center;
 }
 
+/* 
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -44,6 +45,7 @@ html.ie-force-pseudo-refresh:after {
   background-color: #fff;
   border: 1px solid #fff;
 }
+*/
 
 
 /**

@@ -15,10 +15,29 @@ include_once 'layout/_head.php';
     <div class="row">
 
       <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
-1
+        
+        <img src="/img/prd/3.jpg" alt="" class="img-circle img-responsive">
+        
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
-2
+      
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger">Action</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div>
+
+
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-4 text-center">
 3
