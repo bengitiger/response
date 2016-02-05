@@ -63,7 +63,6 @@ include_once 'layout/_head.php';
                 <img data-original="img/back/5.jpg" class="lazy img-responsive img-thumbnail">  
               </a>            
             </div>   
-
                    
           </div>      
           
