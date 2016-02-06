@@ -12,14 +12,14 @@ include_once 'layout/_head.php';
             <h3 class="masthead-brand">BENGI</h3>
             <nav>
               <ul class="nav masthead-nav">
-                <li><a href="#depth11" data-scroll>Home</a></li>
-                <li><a href="#depth12" data-scroll>Features</a></li>
+                <li><a href="#depth11" class="smoothScroll">Home</a></li>
+                <li><a href="#depth12" class="smoothScroll">Features</a></li>
                 <li><a href="#depth13" class="smoothScroll">Img</a></li>
                 <li><a href="#depth14" class="smoothScroll">Contact</a></li>
-                <li><a href="#depth15" data-scroll>Contact</a></li>
-                <li><a href="#depth16" data-scroll>Contact</a></li>
-                <li><a href="#depth17" data-scroll>Contact</a></li>
-                <li><a href="#depth18" data-scroll>Contact</a></li>
+                <li><a href="#depth15" class="smoothScroll">Contact</a></li>
+                <li><a href="#depth16" class="smoothScroll">Contact</a></li>
+                <li><a href="#depth17" class="smoothScroll">Contact</a></li>
+                <li><a href="#depth18" class="smoothScroll">Contact</a></li>
               </ul>
             </nav>
           </div>

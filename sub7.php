@@ -55,9 +55,12 @@ include_once 'layout/_head.php';
                   <li role="separator" class="divider"></li>
                   <li><a href="#">Separated link</a></li>
                 </ul>
-              </div>          
-          
-          </div>
+              </div>
+
+
+      
+
+        </div>
           <div class="col-xs-12 col-sm-4 col-lg-4 text-center">          
           
               <div class="btn-group">
@@ -135,7 +138,7 @@ include_once 'layout/_head.php';
 
       <div class="col-xs-12 col-sm-3 col-lg-3 text-center">
       
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            <button type="button" class="btn btn-primary btn-lg btn-animate" data-toggle="modal" data-target="#myModal">
               Launch demo modal
             </button>
             

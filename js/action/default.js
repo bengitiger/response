@@ -1,5 +1,8 @@
 $(function () {
   
+  var $devicewidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+  var $deviceheight = (window.innerHeight > 0) ? window.innerHeight : screen.height;
+  
   
   /** ----------------------------------------------------
    * 
