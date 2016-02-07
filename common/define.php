@@ -32,10 +32,11 @@ if( $GLB['url']['loc'] == '/' ) {
   $GLB['url']['body']['class'] = 'main';  
 }  
 else {
-
-  $GLB['url']['body']['class'] = 'sub';
   
-  switch ( substr($GLB['url']['loc'], 1, -4 ) ) {
+  $GLB['url']['body']['class'] = 'sub';  
+  $GLB['url']['locpage'] = substr($GLB['url']['loc'], 1, -4 );
+  
+  switch ( $GLB['url']['locpage'] ) {
     case 'sub':
       $GLB['url']['page']['loc'] = 'menu1';
       break;
@@ -55,6 +56,17 @@ else {
       $GLB['url']['page']['loc'] = 'sub';
       $GLB['url']['body']['class'] = 'sub sub7';
       break;
+      
+      
+    /* 회원관련 */
+      
+    case 'login':
+      $GLB['url']['page']['loc'] = 'sub';
+      $GLB['url']['body']['class'] = 'sub login';
+      break;
+      
+      
+      
     default:
       $GLB['url']['page']['loc'] = 'sub';
   }

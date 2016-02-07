@@ -26,7 +26,7 @@ if (!defined('_BENGI_RWD_VER_')) exit;
 </form>
 
 <ul class="nav navbar-nav navbar-right">
-  <li><a href="#">Link</a></li>
+  <li><a href="/login.php">Login</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
     <ul class="dropdown-menu">
       <li><a href="#">Action</a></li>

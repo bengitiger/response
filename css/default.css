@@ -153,6 +153,30 @@ html.sub5 #arrow_left:active, html.sub5 #arrow_right:active {
 }
 
 
+/** -----------------------------------------
+ * 
+ *                  Login 
+ * 
+ */
+
+html.login .loginlayout {
+  position: absolute;
+  top: 30%;
+  margin-top: 0;
+  left: 0;
+  width: 100%;
+}
+
+html.login .loginbox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html.login #mb_login {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 500px;
+}
 
 
 
