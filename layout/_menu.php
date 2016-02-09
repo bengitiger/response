@@ -11,7 +11,9 @@ if (!defined('_BENGI_RWD_VER_')) exit;
       <li><a href="/sub5.php">SUB5</a></li>
       <li><a href="/sub7.php">SUB7</a></li>
       <li role="separator" class="divider"></li>
-      <li><a href="#">Separated link</a></li>
+      <li><a href="/sub9.php">SUB9</a></li>
+            
+      <li><a href="/sub10.php">SUB10</a></li>
       <li role="separator" class="divider"></li>
       <li><a href="#">One more separated link</a></li>
     </ul>
