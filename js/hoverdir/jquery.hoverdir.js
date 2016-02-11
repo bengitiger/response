@@ -1,5 +1,7 @@
 /**
  * jquery.hoverdir.js v1.1.2
+ * 
+ * https://github.com/codrops/DirectionAwareHoverEffect
  * http://www.codrops.com
  *
  * Licensed under the MIT license.
