@@ -89,14 +89,14 @@ footer img.img-logo {
     border: 0 solid #1690C7;
 } 
 
-footer ul.social {
+footer .social ul {
   list-style: none;
   padding: 0;
   margin: 10px 0 0;
   display: inline-block;
 }
 
-footer ul.social li {
+footer .social li {
   float: left;  
 }
 
@@ -172,16 +172,13 @@ html.win.login .loginlayout {
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
-html.win.login .loginbox {
-
-}
 
 html.login #mb_login {
-  font-family: oswald,'Nanum Gothic';
+  font-family: 'Nanum Gothic';
   margin: 0 auto;
   max-width: 500px;
   background-color: rgba(255, 255, 255, 0.75);
-  padding: 20px 50px 50px;
+  padding: 20px 30px 50px;
   border-bottom: 1px solid #bbb;
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
@@ -193,8 +190,15 @@ html.login #mb_login #tmtitle {
   background: #000;
   padding: 15px 0;
   color: #fff;
+  font-size: 28px;
+  font-family: 'Oswald';
 }
 
+html.login #toptitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
 
 
 /** -----------------------------------------

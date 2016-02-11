@@ -17,6 +17,12 @@ html.ie-force-pseudo-refresh:after {
   border: 1px solid #ccc;
 }
 
+.pngimg {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+    zoom: 1;
+}
+
 
 /**
  *   Define II

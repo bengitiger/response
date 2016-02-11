@@ -4,80 +4,61 @@ if (! defined ( '_BENGI_RWD_VER_' ))
 
 // 로그인 화면에서는 숨김
 if( $GLB['url']['locpage'] !== 'login' ) {  
-?>    
+?>
 
-    <hr>
-    <footer>
-    
-      <div class="container">
-        <div class="row">
-    
-          <div class="col-sm-4">
-            <p>
-              <a href="#"><img src="/img/logo/logo.jpg" class="img-responsive center-to-left img-logo" /></a>
-            </p>
-            <div class="small center-to-left ">&copy; 2016 Company, Inc.</div>
-          </div>
-    
-          <div class="col-sm-4">
-            <div class="text-center">
-              <p>
-                <a href="#">Company, Inc.</a><br> <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
-              </p>
-    
-              <ul class="social">
-                <li>
-                  <a href="#" data-toggle="tooltip" data-placement="top" title="구글"> 
-                    <span class="fa-stack fa-lg"> 
-                      <i class="fa fa-circle fa-stack-2x"></i> 
-                      <i class="fa fa-google fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-toggle="tooltip" data-placement="top" title="트위터"> 
-                    <span class="fa-stack fa-lg"> 
-                      <i class="fa fa-circle fa-stack-2x"></i> 
-                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-toggle="tooltip" data-placement="top" title="페이스북"> 
-                    <span class="fa-stack fa-lg"> 
-                      <i class="fa fa-circle fa-stack-2x"></i> 
-                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-toggle="tooltip" data-placement="top" title="GitHub"> 
-                    <span class="fa-stack fa-lg"> 
-                      <i class="fa fa-circle fa-stack-2x"></i> 
-                      <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                
-                </li>
-              </ul>
-    
-            </div>
-          </div>
-    
-          <div class="col-sm-4 ">
-            <span class="center-to-right">
-              <button type="button" class="btn btn-default btn-sm">
-                <span class="glyphicon glyphicon-bullhorn"></span><br> Feedback
-              </button>
-            </span>
-          </div>
-    
-        </div>
+<hr>
+<footer>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="footlogo col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p>
+            <a href="#"><img src="/img/logo/logo.jpg" class="img-responsive center-to-left img-logo" /></a>
+          </p>
+          <div class="small center-to-left ">&copy; 2016 Company, Inc.</div>
       </div>
-    
-    </footer>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+          <h1 style="margin-top: 12px;margin-bottom: 20px;font-family: 'Oswald';font-size: 26px;text-transform: uppercase;">
+            Bengi PROGRAMMER
+          </h1>
+          <p>
+            <a href="#">Company, Inc.</a>
+            <br>
+            <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+          </p>
+      </div>
+
+      <div class="social col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        
+          <ul>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="구글"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+              </span>
+            </a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="트위터"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="페이스북"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="GitHub"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+              </span>
+            </a></li>
+          </ul>      
+          
+          <span style="display: block;" class="hidden-xs hidden-sm">
+            <button type="button" class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-bullhorn"></span><br> Feedback
+            </button>
+          </span>  
+        
+      </div>
+
+    </div>
+  </div>
+
+</footer>
 
 
 
@@ -93,7 +74,7 @@ if( $GLB['url']['locpage'] !== 'login' ) {
   </div>
 </section>
 
-<?php 
+<?php
 }
 ?>
 
@@ -112,8 +93,9 @@ if( $GLB['url']['locpage'] !== 'login' ) {
 <script src="/js/scrollpage2/smoothscroll.js" type="text/javascript"></script>
 <script src="/js/lazyload/jquery.lazyload.min.js" type="text/javascript"></script>
 <script src="/js/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-
 <script src="/js/backstretch/jquery.backstretch.min.js"></script>
+
+<script src="/js/hoverdir/jquery.hoverdir.js"></script>
 
 <script src="/js/cycle/jquery.cycle.all.js" type="text/javascript"></script>
 <script src="/js/maximage/lib/js/jquery.maximage.min.js"></script>

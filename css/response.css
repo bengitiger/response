@@ -20,6 +20,16 @@ html.sub7 section {
 
 
 
+
+
+
+footer .social {
+  text-align: right;
+}
+
+
+
+
 /* -------------------------------------------- */
 
 @media (min-width : 1200px) {
@@ -54,6 +64,19 @@ html.sub7 section {
 
 @media (max-width : 767px){
 
+  footer .footlogo {
+    margin: 20px 0 30px;
+  }
 
+  footer .footlogo img {
+    width: 130px; 
+  }
+
+
+  footer .social {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
 }
 

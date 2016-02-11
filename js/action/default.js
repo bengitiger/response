@@ -280,7 +280,18 @@ $(function () {
         "/img/back/2.jpg",
         "/img/back/3.jpg",
       ], {duration: 3000, fade: 750});
+      
+      var vbackstretchtxt = new Array( 
+        "희망이 있기에 오늘도 열심히 달리는 당신",
+        "당신이 있기에 세상은 아름답습니다",
+        "밝은 모습으로 여러분들과 함께 합니다"
+      );
+      
+      $(window).on("backstretch.before", function (e, instance, index) {
   
+        $(".toptitle4").html(vbackstretchtxt[index]);    
+        
+      });   
   }
   
   
